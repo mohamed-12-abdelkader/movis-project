@@ -20,3 +20,38 @@ p {
   color: white;
   font-weight: 300;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* إضافة تباعد من الأعلى */
+}
+
+.page-item {
+  width: calc(2% + 15px); /* تغيير عرض العناصر إلى قيمة أكبر */
+  height: 30px; /* تغيير ارتفاع العناصر */
+  border: 1px solid rgb(94, 93, 93);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(80, 80, 229);
+
+  cursor: pointer; /* تغيير المؤشر عند التحويل إلى يد مؤشر */
+}
+
+.page-link {
+  color: rgb(80, 80, 229);
+  font-size: 16px; /* تقليل حجم الخط */
+}
+
+.activ {
+  background-color: rgb(37, 37, 208);
+  color: white !important;
+  font-weight: bold; /* تغيير وزن الخط ليكون أوضح */
+}
+
+.next {
+  width: 60px;
+}
